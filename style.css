@@ -19,7 +19,6 @@ footer      {
 header {
     background-color: #1F2937;
     display: flex;
-    padding-bottom: 72px;
 }
 .logo {
     margin: 16px 0;
@@ -58,15 +57,47 @@ main > * {
 }
 .hero {
     background-color: #1F2937;    
+    display: flex;
+    /* padding: 150px 96px; */
+    align-items: center;
+}
+.hero article,
+.hero figure {
+    flex: 1;
+    /* border: lightseagreen 1px solid; */
+    
 }
 .hero h1 {
     color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
 }
 .hero p {
     color:#e5e7eb;;
+    
 }
 figure img {
     color: #e5e7eb;
+    text-align: center;
+}
+button, .calltoaction {
+    background-color: #3882f6;
+    color: #fff;
+}
+button {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 32px;
+    border-radius: 5px;
+    border: none;
+}
+.hero figure {
+    display: flex;
+    align-items: center;
+    background-color: #6d747d;
+}
+.call-to-action button {
+    border: 2px solid white;
 }
 footer {
     background-color: #1F2937;
